@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #24292e;
+    height: 3em;
+}
+.primary-content {
+    display: flex;
+}
+main {
+    background-color: white;
+    flex: 1;
+}
+
+aside {
+    width: 200px;
+    padding: 15px;
+}
+
+.primary-header {
+    height: 5em;
+    color: white;
+    font-size: 10pt;
+}
+
+.panel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 14px 14px;
+  }
+
+  h1 {
+    color: white;
+    display: inline-block;
+  }
+
+nav > a {
+    text-align: center;
+    padding: 14px 14px;
+}
+
+i {
+    font-size: 3em;
+}
+
+input {
+    text-align: left;
+    vertical-align: middle;
+    width: 240px;
+    padding: 8px 8px;
+    margin: 0 30px;
+}
+
+.side {
+    float: right;
+    right: 0px;
+}
+
+.secondary-navbar {
+    border-bottom: 1px solid gray;
+    color: #586069;
+    font-size: 10pt;
+}
+
+.secondary-navbar > li:hover {
+    border-bottom: 1px solid black;
+}
+
+.repo-content {
+    padding: 10px;
+}
+
+.repositories {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+}
+
+.repos {
+    width: 200px;
+    height: 100px;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+h3,h4 {
+    margin: 10px 0 0 10px;
+}
+
+a h4 {
+    margin: 0;
+}
+
+.repos p {
+    margin: 0;
+    font-size: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+p > a {
+    font-size: 10pt;
+}
+
+button {
+    width: 100%
+}
+
+aside > span {
+    color: #666
+}
+
+h6 {
+    margin: 0 0 0 10px;
+}
+li {
+    color: white;
+}
+
+.secondary-navbar > li {
+    color: black;
+}
